@@ -1,0 +1,11 @@
+### local config
+GET http://localhost:8089/static
+Accept: application/json
+
+### dev config
+GET http://localhost:8089/dynamic
+Accept: application/json
+
+### refresh scope
+POST http://localhost:8089/actuator/refresh
+Accept: application/json
